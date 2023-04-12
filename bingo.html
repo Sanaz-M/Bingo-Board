@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bingo Board</title>
-  <link rel="stylesheet" type="text/css" href="style1.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 
@@ -39,32 +39,20 @@
     -->
   <div class="container-center">
     <div class="container">
-      <h1 class="t-center">Bingo Board</h1>
+      <nav>
+        <h1 class="title">Bingo Board</h1>
+      </nav>
       <div class="main-board m-auto board"></div>
-      <input
-        type="button"
-        id="randBtn"
-        class="btn"
-        value="Generate random number"
-      />
-      <input
-        type="number"
-        id="usersNumber"
-        class="input-field"
-        placeholder="Number of users"
-        value="1"
-      />
-      <input
-        type="button"
-        id="userBoardBtn"
-        class="btn"
-        value="Generate user boards"
-      />
+      <input type="button" id="randBtn" class="btn" value="Generate random number" />
+      <section>
+        <input type="number" id="usersNumber" class="input-field" placeholder="Number of users" value="1" />
+        <input type="button" id="userBoardBtn" class="btn" value="Generate user boards" />
+      </section>
       <h5 id="randNum"></h5>
     </div>
 
 
-      <script src="index1.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
